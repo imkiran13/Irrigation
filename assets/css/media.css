@@ -1,0 +1,158 @@
+@media only screen and (min-width : 0px) and (max-width : 1024px) {
+    .container{ padding: 0 30px;}
+    .banner .banner_content{
+        left: 15px;
+        top: 40px;
+    }
+
+    .banner .banner_content h2{font-size: 3.7rem;}
+
+    .irrigation .manage{
+        margin: 0 auto;
+        max-width: 70%;
+    }
+
+    .logolist .logos li{
+        width: 20%;
+        padding: 0 10px;
+    }
+
+    .logolist .logos li img{
+        width: 100%;
+        max-width: 75px;
+    }
+
+}
+
+@media only screen and (min-width : 0px) and (max-width : 768px) {
+
+    /* header:start */
+.hamburger{ display: block;}
+    header .container .top_head{ justify-content: flex-start; flex-wrap: wrap;}
+    header .nav_section .top_nav{
+        margin-top: 20px;
+    }
+    .second{
+        display: none;
+    }
+    
+
+    header .top_nav .first{
+        display: none;
+    }
+    header .nav_section .bottom_nav .mobile{
+        display: block;
+    }
+
+    header .nav_section .bottom_nav{
+        position: fixed;
+        right: 0;
+        top: 0;
+        background-color: #fff;
+        margin:0;
+        width: 300px;
+        padding: 20px;
+        z-index: 1;
+        display: none;
+        -webkit-box-shadow: 1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         1px 1px 10px 0px rgba(50, 50, 50, 0.75);
+
+height: 100vh;
+    }
+    header .nav_section .bottom_nav li{
+        width: 100%;
+        padding-top: 15px;
+        border: none;
+    }
+    /* header:end */
+    
+    .about{
+        background-size: 100% 32%;
+    }
+
+    .about .container .about_vidc{
+        flex-wrap: wrap;
+    }
+
+    .about .about_left,
+    .about .content{
+        width: 100%;
+    }
+    .about .content{
+        padding-top: 0;
+    }
+
+    footer .footer_body{
+        flex-wrap: wrap;
+    }
+
+    footer .footer_right{
+        margin: 0;
+        width: 100%;
+    }
+
+    
+}
+
+@media only screen and (min-width : 0px) and (max-width : 767px) {
+    header .container .top_head .logo{
+        width: 200px;
+    }
+
+    .banner .outer_box{
+        width: 35px;
+        height: 35px;
+        left: calc(50% - 17.5px);
+        bottom: -17px;
+    }
+    .banner .banner_content{ top: 25px;}
+    .banner .banner_content h2{font-size: 1.6rem;}
+    .banner .banner_content h3{font-size: 1.4rem;}
+    .banner .banner_content button{ height: auto; padding: 5px 10px;font-size: 1.4rem;margin-top: 10px;}
+    
+    .logolist .logos li {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .about .about_left{
+        padding:20px 0 0 0;
+    }
+    .about .content{padding-top: 60px;}
+
+    footer .subscribe input{
+        width: 100%;
+    }
+    footer .subscribe button{
+        width: 130px;
+        font-size: 1.2rem;
+    }
+
+    .links, .copy_content{
+        flex-wrap: wrap;
+    }
+
+    .links ul{
+        width: 100%;
+    }
+
+    footer .footer_left .copy_content .copyright, .powered{
+        line-height: 20px;
+    }
+    .powered{
+        padding-top: 20px;
+    }
+
+    footer .footer_left .links .important{ margin: 20px 0 0 0 ;}
+    footer .footer_left .links .disclosure{ margin-right: 0;}
+
+    footer .footer_right .contact{
+        margin: 25px 0px;
+    }
+
+    footer .footer_right .contact .contact_list{
+        margin-top: 0;
+    }
+}
+
